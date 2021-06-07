@@ -8,3 +8,4 @@ This is a ansible playbook that can be used to update all servers in the current
 ### Task List
 -   [x] Linux Server Updater
 -   [ ] Windows Server Updater
+-   [ ] First Release
