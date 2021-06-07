@@ -1,0 +1,5 @@
+- name: Updating Windows Servers
+  hosts:  windows
+  tasks:  
+    - name: Running Windows Update.
+      
