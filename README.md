@@ -3,8 +3,6 @@
 ### **Maintained by Ryan Cohrs**
 
 
-### Completed Tasks
--   Linux Server Updater
-
-### To-Do Tasks
--   Windows Server Updater
+### Task List
+-   [x] Linux Server Updater
+-   [ ] Windows Server Updater
