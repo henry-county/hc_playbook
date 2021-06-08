@@ -2,4 +2,8 @@
   hosts:  windows
   tasks:  
     - name: Running Windows Update.
-      
+      win_updates:  
+        category_names: 
+          - SecurityUpdates
+          - CriticalUpdates
+          - UpdateRollups
