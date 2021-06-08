@@ -1,6 +1,8 @@
 - name: Updating Windows Servers
   hosts:  windows
   remote_user:  hcadmin
+  ansible_connection: ssh
+  ansible_shell_type: cmd
   tasks:  
     - name: Running Windows Update.
       win_updates:  
