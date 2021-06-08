@@ -1,5 +1,6 @@
 - name: Updating Windows Servers
   hosts:  windows
+  remote_user:  hcadmin
   tasks:  
     - name: Running Windows Update.
       win_updates:  
