@@ -9,3 +9,12 @@ This is a ansible playbook that can be used to update all servers in the current
 -   [x] Linux Server Updater
 -   [ ] Windows Server Updater
 -   [ ] First Release
+
+
+
+### Servers
+-   [x] Ryan Linux
+-   [ ] DC Servers
+-   [ ] SQL Servers
+-   [ ] Courtview Servers
+-   [ ] 2012 R2 Servers
