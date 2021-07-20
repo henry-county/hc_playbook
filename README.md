@@ -1,4 +1,4 @@
-# Official Henry County, Ohio Ansible Playbook
+# Official Henry County, Ohio IT Ansible Playbook
 ### Current Version v0.3a
 **Maintained by Ryan Cohrs**
 
@@ -22,7 +22,8 @@ This is a ansible playbook that can be used to update all servers in the current
 
 ## Host Installation Instructions
 
-1.  Install Ansible on your control machine `pip install ansible`.
-2.  Make at least one ssh connection normally to add the clients to your known_hosts file.
-3.  (Optional) Set the python interpreter in your hosts file to `ansible_python_interpreter=/usr/bin/python`.
-4.  Run the playbook in the project by running `ansible-playbook hc_playbook/playbooks/playbookname.yml -kK`.
+1.  [Install Python](https://docs.python-guide.org/starting/install3/linux/)
+2.  Install Ansible on your control machine `pip install ansible`.
+3.  Make at least one ssh connection normally to add the clients to your known_hosts file.
+4.  (Optional) Set the python interpreter in your hosts file to `ansible_python_interpreter=/usr/bin/python`.
+5.  Run the playbook in the project by running `ansible-playbook hc_playbook/playbooks/playbookname.yml -kK`.
