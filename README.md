@@ -27,3 +27,4 @@ This is a ansible playbook that can be used to update all servers in the current
 3.  Make at least one ssh connection normally to add the clients to your known_hosts file.
 4.  (Optional) Set the python interpreter in your hosts file to `ansible_python_interpreter=/usr/bin/python`.
 5.  Run the playbook in the project by running `ansible-playbook hc_playbook/playbooks/playbookname.yml -kK`.
+--1.    -kK is only needed if you do not plan on using ssh keys for your authentication.
