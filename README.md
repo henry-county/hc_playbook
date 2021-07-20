@@ -5,14 +5,14 @@ _**Maintained by Ryan Cohrs**_
 This is a ansible playbook that can be used to update all servers in the current infrastructure.  Not all servers are working yet and a list of server to get working can be see below.
 
 
-### Task List
+#### Task List
 -   [x] Linux Server Updater
 -   [ ] Windows Server Updater
 -   [ ] First Release
 
 
 
-### Servers
+#### Servers
 -   [x] Ryan Linux Servers
 -   [x] County Linux Servers
 -   [ ] DC Servers
@@ -20,7 +20,7 @@ This is a ansible playbook that can be used to update all servers in the current
 -   [ ] Courtview Servers
 -   [ ] 2012 R2 Servers
 
-## Host Installation Instructions
+### Host Installation Instructions
 
 1.  Install [Python](https://docs.python-guide.org/starting/install3/linux/)
 2.  Install [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html) on your control machine `pip install ansible`.
