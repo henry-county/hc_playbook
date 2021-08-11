@@ -24,7 +24,7 @@ This is a ansible playbook that can be used to update all servers in the current
 
 ### Host Installation Instructions
 
-1.  Install [Python](https://docs.python-guide.org/starting/install3/linux/)
+1.  Install [Python 3](https://docs.python-guide.org/starting/install3/linux/)
 2.  Install [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html) on your control machine `pip install ansible`.
 3.  Make at least one ssh connection normally to add the clients to your known_hosts file.
 4.  (Optional) Set the python interpreter in your hosts file to `ansible_python_interpreter=/usr/bin/python`.
