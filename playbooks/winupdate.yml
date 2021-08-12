@@ -6,10 +6,13 @@
       win_updates:  
         state:  downloaded
     - name: Installing Windows Updates.
+      server_selection: managed_server
       win_updates:
-        server_selection: managed_server
         category_names:
-        - "*"
+        - SecurityUpdates
+        - CriticalUpdates
+        - UpdateRollups
+        - Updates
         state: installed
         register: update_result
         log_path: c:\ansible_update.txt
