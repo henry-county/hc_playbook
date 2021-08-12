@@ -11,3 +11,4 @@
           - SecurityUpdates
           - CriticalUpdates
           - UpdateRollups
+        state: installed
