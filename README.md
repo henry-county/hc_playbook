@@ -1,5 +1,5 @@
-# Official Henry County, Ohio IT Ansible Playbook
-### Current Version v0.3a
+# Henry County, Ohio IT Ansible Playbook
+### Current Version v0.4a
 _**Maintained by Ryan Cohrs**_
 
 This is a ansible playbook that can be used to update all servers in the current infrastructure.  Not all servers are working yet and a list of server to get working can be see below.
