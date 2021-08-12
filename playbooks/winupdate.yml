@@ -11,6 +11,6 @@
           - SecurityUpdates
           - CriticalUpdates
           - UpdateRollups
-        state: installed
-        register: update_result
-        log_path: c:\ansible_update.txt
+      state: installed
+      register: update_result
+      log_path: c:\ansible_update.txt
