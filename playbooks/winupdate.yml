@@ -12,3 +12,4 @@
           - CriticalUpdates
           - UpdateRollups
         state: installed
+        register: update_result
