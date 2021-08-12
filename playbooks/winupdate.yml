@@ -2,13 +2,15 @@
   hosts:  windows
   remote_user:  hcadmin
   tasks:  
-
+    - name: Downloading Windows Updates.
+      win_updates:  
+        state:  downloaded
     - name: Installing Windows Updates.
       win_updates:
         category_names:
         - SecurityUpdates
         - CriticalUpdates
         - UpdateRollups
-      state: installed
-      register: update_result
-      log_path: c:\ansible_update.txt
+        state: installed
+        register: update_result
+        log_path: c:\ansible_update.txt
