@@ -2,9 +2,7 @@
   hosts:  windows
   remote_user:  hcadmin
   tasks:  
-    - name: Downloading Windows Updates.
-      win_updates:  
-        state:  downloaded
+
     - name: Installing Windows Updates.
       win_updates:
         category_names:
