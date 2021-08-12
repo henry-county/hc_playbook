@@ -13,3 +13,4 @@
           - UpdateRollups
         state: installed
         register: update_result
+        log_path: c:\ansible_update.txt
