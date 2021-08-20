@@ -24,3 +24,9 @@
         name: "*"
         state:  latest
       become: yes
+    - name: Apply all security patches.
+      zypper:
+        name: "*"
+        state: latest
+        type: patch
+      become: yes
